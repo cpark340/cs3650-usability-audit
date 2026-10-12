@@ -1,0 +1,27 @@
+# Contextual Observation Session - Participant 2
+
+- **Date / Time:** October 9, 2026 | 10:30 AM
+- **Location:** WSU Noorda Engineering Building - Computer Lab
+- **Participant Profile:** CS Junior (Undergraduate), age 23, planning upper-division electives for next year.
+- **Device Used:** Windows 11 Laptop, chrome Browser (External Mouse).
+
+---
+
+### Task Observation & Timestamped Notes
+
+- **00:00 - Setup:** Logged into CatTracks degree evaluation.
+- **00:45 - Target Task:** Clicked `CS 3000:5999` link to view upper-division electives.
+- **01:00 - Navigation:** Participant begins using the mouse scroll wheel heavily. Scrolls past 6 course blocks in under 10 seconds.
+- **01:45 - Friction Point (Prerequisites vs. Schedule):** Participant reads prerequisite requirements at the top of a course block, then scrolls down through 3 tables of section data to find class times. Realizes they forgot the prerequisite code and scrolls back up.
+  - *Quote:* *"I keep losing my place. I have to read the description at the top, scroll way down to see if it fits my schedule, and then scroll back up to check the next one."*
+- **03:15 - Keyboard Check:** Observer asked participant to try navigating using only the `Tab` key.
+  - *Observation:* Tabbing into the modal works, but when focus hits the "X" close button, there is no visible focus outline ring. Participant couldn't tell where focus was located.
+- **04:20 - Debrief Comment:**
+  - *Quote:* *"How am I keeping track of differences? Honestly, I'm not. I gave up on this window and opened a blank Google Doc to copy and paste section CRNs."*
+
+---
+
+### Post-Task Summary & Behavioral Observations
+- **Frustration Level:** Very High (4/5)
+- **Primary Pain Point:** Excessive vertical distance between course descriptions, prerequisites, and section tables.
+- **Key Behavioral Takeaway:** User abandoned in-system evaluation in favor of manual copy-pasting into an external document.

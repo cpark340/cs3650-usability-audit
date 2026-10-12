@@ -1,0 +1,28 @@
+# Contextual Observation Session - Participant 1
+
+- **Date / Time:** October 8, 2026 | 2:15 PM
+- **Location:** Weber State University - Shepherd Union Lounge
+- **Participant Profile:** CS Senior (Undergraduate), age 21, completing final elective requirements.
+- **Device Used:** MacBook Pro 14", Chrome Browser.
+
+---
+
+### Task Observation & Timestamped Notes
+
+- **00:00 - Setup:** Participant opens CatTracks and logs in via WSU Single Sign-On. Navigates cleanly to the Degree Evaluation page.
+- **01:12 - Target Task:** Participant locates "CS Elective Course #2" requirement and clicks the purple `CS 3000:5999` link.
+- **01:15 - Initial Reaction:** Modal popup opens. Participant immediately starts scrolling down rapidly. 
+  - *Observation:* Visually overwhelmed by the length of the modal text.
+- **02:05 - Friction Point (Sorting/Filtering):** Participant tries to look for a search bar or filter dropdown to narrow down Fall/Spring classes.
+  - *Quote:* *"I just want to only see classes offered in Spring."*
+- **03:30 - Friction Point (Unavailable Courses):** Participant clicks on a course section, only to realize it lists `0 seats open` and was last offered two terms ago.
+  - *Quote:* *"Why are classes that aren't available mixed with the ones I can take? It just makes me scroll a lot."*
+- **05:10 - Workaround Executed:** Participant pulls out their iPhone, opens the camera, and takes a photo of the meeting times for CS 3230 so they can scroll down to check CS 3270 without losing their place.
+  - *Quote:* *"I'm taking a screenshot so I don't forget the section time while I look for another option."*
+
+---
+
+### Post-Task Summary & Behavioral Observations
+- **Frustration Level:** High (3/5)
+- **Primary Pain Point:** Inability to filter out inactive courses or compare schedules side-by-side.
+- **Key Behavioral Takeaway:** Heavy reliance on external tools (mobile phone screenshots) to compensate for UI memory load.

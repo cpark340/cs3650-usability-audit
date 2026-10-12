@@ -1,0 +1,27 @@
+# Contextual Observation Session - Participant 3
+
+- **Date / Time:** October 9, 2026 | 3:45 PM
+- **Location:** Remote (Zoom Session / Screen Share)
+- **Participant Profile:** CS Senior (Non-traditional / Part-Time Student), age 26.
+- **Device Used:** Windows 11 PC, Chrome Browser (Trackpad).
+
+---
+
+### Task Observation & Timestamped Notes
+
+- **00:00 - Setup:** Screen share active. CatTracks degree evaluation open.
+- **01:10 - Task Start:** Clicked `CS 3000:5999` link.
+- **01:30 - Visual Accessibility Friction:** Participant squints at the screen when reviewing section metadata.
+  - *Observation:* Dark purple links and light gray table labels are hard to read under default monitor brightness.
+  - *Quote:* *"The light gray text for 'Seats Open' is really washed out on my screen."*
+- **02:40 - Task Execution:** Participant attempts to evaluate three different electives to see which ones fit an evening schedule.
+  - *Observation:* Constantly hovering over the scrollbar thumb to drag through long content blocks. Expressed annoyance that course listings aren't grouped by sub-discipline (e.g., Web Dev, Systems, AI).
+- **04:00 - Debrief Comment:**
+  - *Quote:* *"It feels like a printed paper course catalog from the 2000s pasted into a web popup. It doesn't feel like an interactive tool."*
+
+---
+
+### Post-Task Summary & Behavioral Observations
+- **Frustration Level:** Moderate-High (3.5/5)
+- **Primary Pain Point:** Visual contrast issue on metadata labels and lack of categorical grouping/sorting.
+- **Key Behavioral Takeaway:** Expectation mismatch—user expected modern web app behavior (filtering/sorting) but received static document output.

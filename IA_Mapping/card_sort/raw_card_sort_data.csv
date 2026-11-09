@@ -1,0 +1,49 @@
+participant,category_label,card_number,card
+P1,Course Details,4,Prerequisites Checklist
+P1,Course Details,2,Course Title
+P1,Course Details,3,Course Description / Syllabus
+P1,Course Details,1,Course Prefix & Number
+P1,Course Details,5,Term / Semester Availability
+P1,Course Details,6,Section CRN / Call Number
+P1,Course Details,8,Real-Time Seat Availability
+P1,Filter Tools,11,Filter by Semester / Term
+P1,Filter Tools,12,Filter by Course Status
+P1,Schedule Info,7,Instructor Name & Contact
+P1,Schedule Info,10,Class Location / Modality
+P1,Schedule Info,9,Class Meeting Days & Times
+P1,General Information,16,Global Nav Back to Degree Audit
+P1,General Information,14,Add to Personal Schedule Builder
+P1,General Information,15,Degree Requirement Progress Tracker
+P1,General Information,13,Side-by-Side Comparison Tool
+P2,Filter Options,12,Filter by Course Status
+P2,Filter Options,8,Real-Time Seat Availability
+P2,Filter Options,11,Filter by Semester / Term
+P2,Degree Progress,4,Prerequisites Checklist
+P2,Degree Progress,15,Degree Requirement Progress Tracker
+P2,Degree Progress,14,Add to Personal Schedule Builder
+P2,Degree Progress,6,Section CRN / Call Number
+P2,Course Details,3,Course Description / Syllabus
+P2,Course Details,2,Course Title
+P2,Course Details,10,Class Location / Modality
+P2,Course Details,7,Instructor Name & Contact
+P2,Course Details,13,Side-by-Side Comparison Tool
+P2,Course Details,9,Class Meeting Days & Times
+P2,Course Details,1,Course Prefix & Number
+P2,Course Details,5,Term / Semester Availability
+P2,Actions,16,Global Nav Back to Degree Audit
+P3,My Degree / Actions,4,Prerequisites Checklist
+P3,My Degree / Actions,13,Side-by-Side Comparison Tool
+P3,My Degree / Actions,14,Add to Personal Schedule Builder
+P3,My Degree / Actions,15,Degree Requirement Progress Tracker
+P3,My Degree / Actions,16,Global Nav Back to Degree Audit
+P3,Course Details,8,Real-Time Seat Availability
+P3,Course Details,3,Course Description / Syllabus
+P3,Course Details,2,Course Title
+P3,Course Details,1,Course Prefix & Number
+P3,Course Details,5,Term / Semester Availability
+P3,Course Details,10,Class Location / Modality
+P3,Course Details,9,Class Meeting Days & Times
+P3,Course Details,6,Section CRN / Call Number
+P3,Course Details,7,Instructor Name & Contact
+P3,Filters & Controls,12,Filter by Course Status
+P3,Filters & Controls,11,Filter by Semester / Term

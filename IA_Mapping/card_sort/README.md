@@ -1,2 +1,5 @@
 Phase 2: Information Architecture & Information Design Mapping
-This folder contains the primary research artifacts, empirical findings, information architecture diagrams, and structural blueprints for Phase 2 of the CatTracks Elective Lookup (CS 3000:5999) redesign project.
+This folder contains:
+   Default open card sorting deck using Lucid Chart
+   Results of open card sorting deck for 3 participants
+   Similarity matrix

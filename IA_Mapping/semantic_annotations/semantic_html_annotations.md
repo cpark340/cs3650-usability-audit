@@ -1,0 +1,118 @@
+# Semantic HTML and Keyboard/ARIA Blueprint
+
+## Shared page shell (all screens)
+<a class="skip-link" href="#main">Skip to main content</a>
+<header>                                   <!-- role=banner -->
+  <a href="/">CatTracks</a>
+  <a href="/degree-audit">Back to Degree Audit</a>
+  <a href="/help">Help</a> <a href="/account">Account</a>
+</header>
+<nav aria-label="Primary">
+  <ul>
+    <li><a href="/degree" aria-current="page">My Degree</a></li>   <!-- current page only -->
+    <li><a href="/electives">Find Electives</a></li>
+    <li><a href="/schedule">My Schedule</a></li>
+  </ul>
+</nav>
+<nav aria-label="Breadcrumb">
+  <ol>
+    <li><a href="/degree">My Degree</a></li>
+    <li><a href="/electives">Find Electives</a></li>
+    <li aria-current="page">Compare</li>
+  </ol>
+</nav>
+<main id="main"> ... </main>
+<footer> <a href="/accessibility">Accessibility statement</a> <a href="/contact">Contact</a> </footer>
+
+
+## Screen 1: Degree Evaluation
+<main id="main">
+  <h1 tabindex="-1">Degree Evaluation: Computer Science, BS</h1>
+  <section aria-labelledby="done-h">
+    <h2 id="done-h">Completed requirements</h2>
+    <button aria-expanded="false" aria-controls="core-list">Core courses (12 of 12 complete)</button>
+    <ul id="core-list" hidden>...</ul>
+  </section>
+  <section aria-labelledby="todo-h">
+    <h2 id="todo-h">Remaining requirements</h2>
+    <p>CS Elective Course #1: still needed
+       <a href="/electives?req=1" aria-label="Find electives for CS Elective Course #1">Find electives</a></p>
+    <p>CS Elective Course #2: still needed
+       <a href="/electives?req=2" aria-label="Find electives for CS Elective Course #2">Find electives</a></p>
+  </section>
+</main>
+<aside aria-label="Progress summary">
+  <h2>Progress</h2>
+  <progress value="86" max="120">86 of 120 credits</progress>
+  <p>86 of 120 credits</p>
+  <a href="/advising">Talk to an advisor</a>
+</aside>
+
+
+## Screen 2: Find Electives
+<main id="main">
+  <h1 tabindex="-1">Find electives: CS Elective Course #2</h1>
+  <form role="search" aria-label="Filter courses">
+    <label for="term">Term</label>
+    <select id="term">...</select>
+    <label><input type="checkbox"> Open seats only</label>
+    <button type="reset">Clear filters</button>
+  </form>
+  <p role="status" aria-live="polite">12 courses match</p>
+  <section aria-labelledby="results-h">
+    <h2 id="results-h" class="visually-hidden">Results</h2>
+    <ul>
+      <li><article aria-labelledby="c3705">
+        <h3 id="c3705">CS 3705 Protocol Analysis</h3>
+        <p>4 credits · Fall 2026 · Upper division</p>
+        <p>Tu 10:30am-1:10pm · WSU campus</p>
+        <p>13 of 24 seats open · Prerequisite CS 2705: met</p>
+        <button aria-expanded="false" aria-controls="details-3705">Show details</button>
+        <label><input type="checkbox"> Compare <span class="visually-hidden">CS 3705</span></label>
+        <button aria-disabled="false">Add to schedule</button>
+        <div id="details-3705" hidden>...</div>
+      </article></li>
+    </ul>
+  </section>
+</main>
+<aside aria-label="Compare tray">
+  <h2>Compare tray</h2>
+  <p>2 of 3 selected</p>
+  <button>Compare (2)</button> <button>Clear selection</button>
+</aside>
+
+
+## Screen 3: Compare
+<main id="main">
+  <h1 tabindex="-1">Compare courses</h1>
+  <button>Back to results</button>
+  <table>
+    <caption>CS 3705 and CS 3720 compared</caption>
+    <thead><tr><td></td><th scope="col">CS 3705 Protocol Analysis</th><th scope="col">CS 3720 Network Architectures</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Meeting times</th><td>Tu 10:30am-1:10pm (differs)</td><td>MW 1:30pm-2:45pm (differs)</td></tr>
+      ...
+    </tbody>
+  </table>
+  <button aria-label="Add CS 3705 to Fall 2026 schedule">Add CS 3705</button>
+  <button aria-label="Add CS 3720 to Fall 2026 schedule">Add CS 3720</button>
+</main>
+
+
+## Screen 4: My Schedule
+<main id="main">
+  <h1 tabindex="-1">My Schedule: Fall 2026</h1>
+  <p role="status">CS 3705 added to your Fall 2026 schedule.</p>
+  <section aria-labelledby="plan-h">
+    <h2 id="plan-h">Planned courses</h2>
+    <ul>
+      <li>CS 3705 Protocol Analysis ... <button aria-label="Remove CS 3705 from schedule">Remove</button></li>
+    </ul>
+    <a href="/electives">Find more electives</a>
+  </section>
+</main>
+<aside aria-label="Degree progress">
+  <h2>Degree progress</h2>
+  <p>Electives planned: 1 of 2</p>
+  <a href="/degree">View degree progress</a>
+</aside>
